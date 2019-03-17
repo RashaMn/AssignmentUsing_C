@@ -7,3 +7,5 @@ This simple program prints out English alphabets in both upper and lowercase.
 # Run
 Online C compiler 
 
+# Licence 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
