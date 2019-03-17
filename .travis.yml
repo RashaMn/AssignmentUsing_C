@@ -1,9 +1,9 @@
 language: c
+sudo: false 
 script:
-  - gcc -coverage -fprofile-arcs -ftest-coverage main.c -o main -lm -lgcov
+  - clang -coverage -O0 main.c -o main
   - ./main
   - gcov main.c
-
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
